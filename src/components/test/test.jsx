@@ -6,7 +6,7 @@ export default function TestComponent() {
   const [file, setFile] = useState(null);
 
   return (
-    <div className="w-full h-[100vh] flex justify-center items-center">
+    <div className=" bg-pink-300 w-full h-[100vh] flex justify-center items-center">
       <input
         type="file"
         defaultValue={file}
