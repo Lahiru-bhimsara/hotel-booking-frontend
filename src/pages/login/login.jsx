@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import "./login.css"; // You can remove this if you don't need any custom styles
+import "./login.css";
 
 export default function LoginPage() {
   const [email, setEmail] = useState("");
